@@ -1,4 +1,18 @@
+# IDE
 .idea/
+.vscode/
+
+# Virtual environment
 .venv/
+venv/
+
+# Python cache
 __pycache__/
-reports/
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary files
+*.tmp
+*.log
+data/
