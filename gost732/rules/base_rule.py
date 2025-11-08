@@ -3,7 +3,6 @@ from abc import ABC, abstractmethod
 
 # Определяем базовый класс для всех последующий файлов
 class BaseRule(ABC):
-    name: str = "Base rule"
 
 # Используем декоратор для обозначения абстрактного класса
     @abstractmethod
